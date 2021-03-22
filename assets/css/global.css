@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;0,400;0,600;1,900");
+
+/* 
+Vermelho : #e63d3d
+vermelho::hover : #c42f2f
+branco : #fff
+preto : #121212
+preto::hover : #23272b 
+*/
+
+*
+{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+font-family: 'Barlow Condensed', sans-serif;
+
+}
+
+html
+{
+    font-size: 16px;
+}
+
+button
+{
+color: #fff;
+font-weight: 700;
+border: none;
+padding: 1.5rem 2.5rem;
+transform: skew(-10deg,0);
+}
+
+button.red
+{
+
+background-color: #e63d63;
+
+}
+button.black
+{
+background-color: #121212;
+color: #fff;
+}
+button.white
+{
+background-color: #fff;
+color: #121212;
+}
+
+.container
+{
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media (min-width : 641px)
+{
+
+.container 
+{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+}
+
+@media (min-width : 992px)
+{
+
+.container 
+{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+}
+@media (min-width : 1200px)
+{
+
+.container 
+{
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+}

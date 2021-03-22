@@ -1,0 +1,65 @@
+.portfolio
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    padding-top : 7.5rem;
+    padding-bottom: 7.5rem;
+    background-color: #121212;
+}
+.portfolio > span
+{
+
+color: #e63d3d;
+text-transform: uppercase;
+font-weight: 700;
+
+}
+
+.portfolio > h3{
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.portfolio > .portfolio-container .portfolio-item
+{
+
+color: white;
+margin-left: 1rem;
+margin-right: 1rem;
+margin-bottom: 1rem;
+position: relative;
+
+}
+
+
+.portfolio > .portfolio-container .portfolio-item .description
+{
+    position: absolute;
+    left: 2rem;
+    bottom: 2rem;
+
+}
+
+.portfolio > .portfolio-container .portfolio-item img
+{
+
+    width: 100%;
+}
+
+
+.portfolio > .portfolio-container .portfolio-item h4
+{
+
+font-size: 2rem;
+margin-bottom: 0.5rem;
+}
+
+.portfolio > .portfolio-container .portfolio-item span
+{
+    font-size: 1.2rem;
+}
+

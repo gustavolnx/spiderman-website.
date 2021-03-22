@@ -1,0 +1,42 @@
+.masterhead
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('../images/bg-masthead.png');
+    background-position: center left;
+    background-size: cover;
+    background-color: #121212;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+}
+
+.masterhead > h1
+{
+    font-size: 4rem;
+    transition-delay: 2ms;
+   
+}
+.masterhead > h1:hover
+{ 
+    transition-delay: 2ms;
+    color: rgb(206, 52, 52);
+   
+}
+.masterhead > h2
+{
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.masterhead > button:hover
+{
+
+background-color: rgb(46, 46, 46);
+color: rgb(230, 230, 230);
+
+}

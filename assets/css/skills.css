@@ -1,0 +1,78 @@
+.skills
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    padding-top : 7.5rem;
+    padding-bottom: 7.5rem;
+    background-color: #121212;
+}
+.skills > span
+{
+
+color: #e63d3d;
+text-transform: uppercase;
+font-weight: 700;
+
+}
+
+.skills > h3{
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.skills > h4:hover
+{
+    color: rgb(206, 52, 52);
+}
+
+.skills > .skills-container
+{
+
+
+
+}
+
+
+.skills > .skills-container .skill-item
+{
+
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+color: #fff;
+margin-bottom: 3rem;
+
+}
+.skills > .skills-container .skill-badge
+{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+width: 7rem;
+height: 7rem;
+border-radius: 100%;
+background-color: #e63d3d;
+font-size: 2rem;
+margin-bottom: 1rem;
+
+}
+
+.skills > .skills-container .skill-badge:hover
+{
+    transition-property: all;
+    transition-delay: 2ms;
+    background-color: #1e1e1e;
+    color: whitesmoke;
+}
+
+.skills > .skills-container .skill-item h4{
+font-size: 1.5rem;
+margin-bottom: 0.5rem;
+
+}
